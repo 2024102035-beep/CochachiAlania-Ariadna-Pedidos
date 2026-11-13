@@ -1,7 +1,8 @@
 # Autor: Cochachi Alania Ariadna
-# Proyecto: Sistema de Gestion de Pedidos
+# INC-014: Correccion del calculo del subtotal
+
 def calcular_subtotal(precio, cantidad):
-    return precio
+    return precio * cantidad
 
 precio = 80
 cantidad = 3
